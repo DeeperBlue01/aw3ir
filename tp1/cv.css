@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #2c3e50;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: orange;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #d0e1f9;
+}
+
+img {
+  max-width: 100px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  }
+
+  table {
+    font-size: 14px;
+    width: 100%;
+  }
+}
